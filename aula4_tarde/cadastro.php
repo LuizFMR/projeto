@@ -10,15 +10,24 @@
 <body>
     <form action="processa.php" method="post">
         <h1>Cadastro</h1>
-        Nome <input type="text" name="nome" required><br>
-        Nome de Usuário <input type="text" name="usuario" required><br>
-        Senha <input type="password" name="senha" required><br>
-        Confirmar Senha <input type="password" required><br>
-        Email <input type="email" name="email" required><br>
-        CPF <input type="text" name="cpf" required><br>
-        Telefone <input type="text" name="telefone" required><br>
-        Altura <input type="text" name="altura"><br>
-        Peso <input type="text" name="peso"><br>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" placeholder="Nome completo" required><br>
+        <label for="usuario">Nome de Usuário</label>
+        <input type="text" name="usuario" placeholder="Nome de exibição" required><br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" placeholder="Senha" required><br>
+        <label for="senha2">Confirmar Senha</label>
+        <input type="password" name="senha2" placeholder="Confirmar senha" required><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="nome@nome.com" required><br>
+        <label for="cpf">CPF</label>
+        <input type="text" name="cpf" placeholder="xxx.xxx.xxx-xx" required><br>
+        <label for="telefone">Telefone</label>
+        <input type="text" name="telefone" placeholder="(xx) xxxxx-xxxx" required><br>
+        <label for="altura">Altura</label>
+        <input type="text" name="altura" placeholder="x.xx" required><br>
+        <label for="peso">Peso</label>
+        <input type="text" name="peso" placeholder="xx"><br>
         <input type="submit" name="Enviar">
     </form>
 </body>

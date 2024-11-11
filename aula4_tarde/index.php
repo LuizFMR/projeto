@@ -10,8 +10,10 @@
 <body>
     <form action="processa.php" method="post">
         <h1>Login</h1>
-        Email <input type="email" name="email" required><br>
-        Senha <input type="password" name="senha" required><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" required><br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" required><br>
         <input type="submit" name="Enviar"> <a href="cadastro.php">Cadastrar-se</a>
     </form>
 </body>
