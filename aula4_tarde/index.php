@@ -10,7 +10,7 @@
 </head>
 
 <body class="d-flex justify-content-center align-items-center vh-100" style="background-color: #6a0dad;">
-    <form action="" method="post" class="p-4 rounded bg-white w-50">
+    <form action="logar.php" method="post" class="p-4 rounded bg-white w-50">
         <h1>Login</h1>
 
         <div class="form-floating mb-3">
